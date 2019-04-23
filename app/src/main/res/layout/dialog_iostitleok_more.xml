@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    android:gravity="center">
+    <LinearLayout
+        android:background="@drawable/dialog_iosokcancle_top"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/dialog_iosokcancle_titile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="15dp"
+                android:textSize="16dp"
+                android:text="标题"
+                android:textColor="#222222"
+                android:orientation="vertical" >
+            </TextView>
+
+            <TextView
+                android:id="@+id/dialog_iosokcancle_content_neirong"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/common_30"
+                android:paddingRight="@dimen/common_30"
+                android:layout_marginBottom="@dimen/common_40"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.3"
+                android:textSize="@dimen/common_32"
+                android:layout_gravity="center"
+                android:text="内容"
+                android:minLines="3"
+                android:textColor="#222222"
+                android:orientation="vertical" >
+            </TextView>
+        </LinearLayout>
+
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#cccccc"/>
+        <Button
+            android:id="@+id/dialog_iosokcenter"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="中间"
+            android:textColor="#2072cf"
+            android:textSize="16dp"
+            android:background="@drawable/shape_bg_change"/>
+    </LinearLayout>
+
+</LinearLayout>

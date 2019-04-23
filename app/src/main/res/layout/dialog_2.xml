@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="251dp"
+        android:layout_height="251dp"
+        android:background="@drawable/shape_stack_dialog">
+
+        <ImageView
+            android:id="@+id/iv_dialog_img"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/sign_faile"
+            android:layout_alignParentRight="true"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="弹框 - 2"
+            android:textColor="#00ff00"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/tv_dialog_skip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginBottom="12dp"
+            android:text="跳转"
+            android:textColor="#000000"
+            android:background="@drawable/shape_stack_dialog"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</LinearLayout>

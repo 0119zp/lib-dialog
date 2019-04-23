@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <LinearLayout
+        android:id="@+id/successDialog"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_wait_dialog"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/sign_image"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="25dp"
+            />
+
+        <TextView
+            android:id="@+id/sign_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:text=""
+            android:textSize="15dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.feiniu.market.utils.progress.CircularProgressView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:progress="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    progress:circular_circle="@drawable/progress_circular_circle"
+    progress:circular_logo="@drawable/progress_circular_logo"
+    progress:logo_width="20dp"
+    progress:logo_height="10dp" />

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/animation_mancard_ll"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/common_30"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/corner_bg"
+            android:layout_marginRight="@dimen/common_30"
+            android:layout_marginLeft="@dimen/common_30"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/animation_mancard"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_120"
+                android:textColor="#999999"
+                android:gravity="center"
+                android:paddingTop="@dimen/common_1"
+                android:paddingLeft="@dimen/common_30"
+                android:paddingRight="@dimen/common_30"
+                android:textSize="@dimen/common_25"
+                android:lineSpacingMultiplier="1.1"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#cccccc"
+                />
+
+            <TextView
+                android:id="@+id/animation_mancard_del_bt"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/common_80"
+                android:text="删除卡片"
+                android:clickable="true"
+                android:gravity="center"
+                android:textColor="#ff2244"
+                android:textSize="@dimen/common_32" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/animation_mancard_cancel_bt"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/common_80"
+            android:layout_marginTop="@dimen/common_20"
+            android:background="@drawable/corner_bg"
+            android:text="取消"
+            android:gravity="center"
+            android:textColor="#2072cf"
+            android:layout_marginRight="@dimen/common_30"
+            android:layout_marginLeft="@dimen/common_30"
+            android:textSize="@dimen/common_32" />
+    </LinearLayout>
+
+</RelativeLayout>

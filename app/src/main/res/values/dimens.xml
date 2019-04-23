@@ -1,0 +1,424 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 等待框 -->
+    <dimen name="wait_dialog_width">205dp</dimen>
+    <dimen name="wait_dialog_height">130dp</dimen>
+    <dimen name="friday_height">130dp</dimen>
+    <!-- 我的线长度适配 -->
+    <dimen name="text_wrie">15dp</dimen>
+
+    <!-- ptpcards_item -->
+    <dimen name="carditem_height">53dp</dimen>
+    <dimen name="carditem_logo">27dp</dimen>
+    <dimen name="margleft">14dp</dimen>
+    <dimen name="margright">10dp</dimen>
+    <dimen name="carditem_textsize">15dp</dimen>
+    <dimen name="carditem_cancle">12sp</dimen>
+    <dimen name="carditem_select_w">25dp</dimen>
+    <dimen name="carditem_select_h">53dp</dimen>
+
+    <!-- dialog_ptp_money -->
+    <dimen name="money_item_h">50dp</dimen>
+    <dimen name="money_btn_w">304dp</dimen>
+    <dimen name="money_btn_h">35dp</dimen>
+    <dimen name="money_linear_martop">11dp</dimen>
+    <dimen name="money_relative_martop">26dp</dimen>
+
+    <!-- ptp_paydetial -->
+    <dimen name="ptp_paydetial_title">15sp</dimen>
+    <dimen name="ptp_paydetial_cancle">12sp</dimen>
+    <dimen name="ptp_paydetial_btn_w">304dp</dimen>
+    <dimen name="ptp_paydetial_btn_h">35dp</dimen>
+    <dimen name="ptp_paydetial_item_h">30dp</dimen>
+    <!-- ptp_receive -->
+    <dimen name="receive_textsizesmall">10sp</dimen>
+    <dimen name="receive_margtop">13dp</dimen>
+
+    <!-- ptp_detial -->
+    <dimen name="detial_textsize_normal">12dp</dimen>
+    <dimen name="detial_textsize_large">25sp</dimen>
+
+    <color name="textColor">#333333</color>
+
+    <dimen name="detial_tv_height">14dp</dimen>
+
+    <!-- pay_receive_image -->
+    <dimen name="p_r_image_logo">25dp</dimen>
+    <dimen name="p_r_tang_w">190dp</dimen>
+    <dimen name="p_r_tang_h">77dp</dimen>
+    <dimen name="p_r_detialtextsize">10sp</dimen>
+    <dimen name="p_r_detial_timesize">12sp</dimen>
+    <dimen name="p_r_detial_title_h">53dp</dimen>
+
+    <!-- ptp_result -->
+    <dimen name="p_result_martop1">32dp</dimen>
+    <dimen name="p_result_martop2">33dp</dimen>
+    <!-- 协议大图 -->
+    <dimen name="kv_height">203dp</dimen>
+    <!-- 云闪付简介字体 -->
+    <dimen name="toleft">14dp</dimen>
+    <dimen name="toright">11dp</dimen>
+    <dimen name="cell">19dp</dimen>
+    <dimen name="argee_totop">20dp</dimen>
+    <!-- topbar -->
+    <dimen name="top_bar_right">36dp</dimen>
+    <!-- 用户界面 -->
+    <dimen name="user_logo">72dp</dimen>
+    <dimen name="table_threelogo">57dp</dimen>
+    <dimen name="table_three_logoheight">24dp</dimen>
+    <dimen name="user_height">38dp</dimen>
+    <dimen name="yunSF">30dp</dimen>
+    <dimen name="new_w">30dp</dimen>
+    <dimen name="new_h">14dp</dimen>
+    <dimen name="dot">7dp</dimen>
+    <dimen name="JTXZ">22dp</dimen>
+    <dimen name="JTkd">35dp</dimen>
+
+    <!-- 云卡激活 active_cloud_card -->
+    <dimen name="active_margintop">26dp</dimen>
+    <dimen name="active_cloud_height">37dp</dimen>
+    <dimen name="textsize_normal">13sp</dimen>
+    <dimen name="textsize_max">16sp</dimen>
+    <dimen name="textsize_min">12sp</dimen>
+
+    <!-- 银行卡片尺寸 -->
+    <dimen name="bank_card_height">117dp</dimen>
+    <dimen name="bank_card_margin">10dp</dimen>
+    <dimen name="bank_card_logo">28dp</dimen>
+    <dimen name="bank_card_logo_marleft">8dp</dimen>
+    <dimen name="bank_card_logo_marright">8dp</dimen>
+    <dimen name="bank_card_SF_height">26dp</dimen>
+    <dimen name="bank_card_SF_width">48dp</dimen>
+    <dimen name="bank_card_marringht">10dp</dimen>
+    <dimen name="bank_card_NumtoTop">43dp</dimen>
+
+    <!-- 云闪付详情 -->
+    <dimen name="detial_height1">37dp</dimen>
+    <dimen name="detial_height2">62dp</dimen>
+    <dimen name="detial_textsize">15dp</dimen>
+    <dimen name="detial_small">12dp</dimen>
+    <dimen name="detial_small_small">10dp</dimen>
+    <dimen name="detial_textsizemax">15dp</dimen>
+    <dimen name="detial_martop">15dp</dimen>
+    <dimen name="detial_bottom1">12dp</dimen>
+    <dimen name="detial_bottom2_width">14dp</dimen>
+    <dimen name="detial_bottom2_height">10dp</dimen>
+
+    <!-- 服务协议 -->
+    <dimen name="service_paper_height">288dp</dimen>
+    <dimen name="service_margin">14dp</dimen>
+    <dimen name="service_marleft">7dp</dimen>
+    <dimen name="service_marright">18dp</dimen>
+
+    <!-- setup -->
+    <dimen name="setup_on_w">55dp</dimen>
+    <dimen name="setup_on_h">23dp</dimen>
+    <dimen name="setup_margin">13dp</dimen>
+    <dimen name="setup_textsize">15sp</dimen>
+    <dimen name="setup_textmin">12sp</dimen>
+    <dimen name="setup_cell">10dp</dimen>
+
+    <!-- apply_cloud -->
+    <dimen name="apply_cloud_textsize">13sp</dimen>
+    <dimen name="apply_cloud_textmax">15sp</dimen>
+
+    <!-- 选择银行卡 -->
+    <dimen name="chose_logo1">23dp</dimen>
+    <dimen name="chose_logo1_toleft">20dp</dimen>
+    <dimen name="chose_logo1_toright">8dp</dimen>
+    <dimen name="chose_textnormal">13sp</dimen>
+    <dimen name="chose_textsmall">13sp</dimen>
+    <dimen name="chose_logo2">18dp</dimen>
+
+    <!-- 交易信息 -->
+    <dimen name="detial_message_height">170dp</dimen>
+    <dimen name="detial_message_logo">25dp</dimen>
+    <dimen name="detial_message_text1">15sp</dimen>
+    <dimen name="detial_message_toleft">7dp</dimen>
+    <dimen name="detial_message_textmax">27sp</dimen>
+    <dimen name="detial_message_padd">5dp</dimen>
+    <dimen name="detial_message_text2">14sp</dimen>
+    <dimen name="detial_message_margin">15dp</dimen>
+    <dimen name="detial_message_height2">31dp</dimen>
+    <dimen name="detial_message_text3">12sp</dimen>
+    <dimen name="detial_messge_bottom">42dp</dimen>
+    <!-- 问题列表 -->
+    <dimen name="problem_top_topheight">10dp</dimen>
+    <dimen name="problem_item_height">37dp</dimen>
+    <dimen name="problem_textsize">15sp</dimen>
+    <dimen name="problem_left">16dp</dimen>
+    <dimen name="problem_cell">1dp</dimen>
+    <!-- HCE演示浮窗 -->
+    <dimen name="dialog_float_lin_martop">10dp</dimen>
+    <dimen name="LOGO_h">80dp</dimen>
+    <dimen name="dialog_float_text_margin">10dp</dimen>
+    <dimen name="dialog_float_martop">40dp</dimen>
+    <dimen name="dialog_float_imgleft_w">60dp</dimen>
+    <dimen name="dialog_float_img_h">90dp</dimen>
+    <dimen name="dialog_float_imgright_w">60dp</dimen>
+    <dimen name="dialog_float_btn_w">200dp</dimen>
+    <dimen name="dialog_float_btn_martop">30dp</dimen>
+    <dimen name="dialog_float_imgleft_marleft">40dp</dimen>
+    <dimen name="dialog_float_btn_margbottom">70dp</dimen>
+    <!-- 我的 -->
+    <dimen name="my_text_my_item">45dp</dimen>
+    <dimen name="chose_text_num">8sp</dimen>
+    <!-- 登录图标高度 -->
+    <dimen name="login_pho_height">30dp</dimen>
+
+    <!-- 首页白金礼遇 -->
+    <dimen name="main_shelf_width">140dp</dimen>
+    <dimen name="main_shelf_hight">64dp</dimen>
+    <!-- 生活页面 -->
+    <dimen name="life_activity_frist">164.5dp</dimen>
+    <dimen name="life_activity_secound">80dp</dimen>
+    <!-- 订单弹窗高度 -->
+    <dimen name="purchase_dialog_height">350dp</dimen>
+    <dimen name="my_fragment_title">130dp</dimen>
+    <dimen name="login_btn_margin_top">40dp</dimen>
+    <dimen name="my_action_height45">40dp</dimen>
+    <dimen name="my_set_textSize16">14dp</dimen>
+    <dimen name="my_set_huashu_textSize">10dp</dimen>
+    <dimen name="my_action_height36">32dp</dimen>
+    <dimen name="my_setting_height60">54dp</dimen>
+    <dimen name="title_data_textSize">12dp</dimen>
+    <dimen name="my_set_textSize">12dp</dimen>
+
+    <dimen name="adress_hight">45dp</dimen>
+    <!-- 积分刷卡金-->
+    <dimen name="intergral_height">300dp</dimen>
+    <dimen name="intergral_dimens_8">3.41dp</dimen>
+    <dimen name="intergral_dimens_10">4.270dp</dimen>
+    <dimen name="intergral_dimens_16">6.83dp</dimen>
+    <dimen name="intergral_dimens_20">8.53dp</dimen>
+    <dimen name="intergral_dimens_26">11.09dp</dimen>
+    <dimen name="intergral_dimens_30">12.80dp</dimen>
+    <dimen name="intergral_dimens_32">13.65dp</dimen>
+    <dimen name="intergral_dimens_40">17.07dp</dimen>
+    <dimen name="intergral_dimens_46">19.63dp</dimen>
+    <dimen name="intergral_dimens_50">21.33dp</dimen>
+    <dimen name="intergral_dimens_70">29.87dp</dimen>
+    <dimen name="intergral_dimens_80">34.13dp</dimen>
+    <dimen name="intergral_dimens_140">59.73dp</dimen>
+    <dimen name="intergral_dimens_240">102.40dp</dimen>
+    <dimen name="intergral_dimens_190">81.07dp</dimen>
+    <dimen name="intergral_dimens_360">153.6dp</dimen>
+
+
+    <dimen name="intergral_dimens_6">2.56dp</dimen>
+    <dimen name="intergral_dimens_12">5.12dp</dimen>
+    <dimen name="intergral_dimens_14">5.97dp</dimen>
+    <dimen name="intergral_dimens_17">7.25dp</dimen>
+    <dimen name="intergral_dimens_34">14.51dp</dimen>
+    <dimen name="intergral_dimens_60">25.6dp</dimen>
+    <dimen name="intergral_dimens_90">38.41dp</dimen>
+    <dimen name="intergral_dimens_120">51.2dp</dimen>
+    <dimen name="intergral_dimens_200">85.33dp</dimen>
+
+
+    <dimen name="intergral_dimens_100">42.67dp</dimen>
+    <!-- c2b -->
+    <dimen name="height_400">400dp</dimen>
+    <dimen name="height_250">250dp</dimen>
+    <dimen name="skb_title_spacebetween">3.75dp</dimen>
+
+    <!--账务查询-->
+    <dimen name="activity_cashieraccount_list_toprel_height">128dp</dimen>
+    <dimen name="activity_cashieraccount_list_item_height">60dp</dimen>
+    <dimen name="activity_cashieraccount_newmain_item_margintop">13dp</dimen>
+    <dimen name="activity_cashieraccount_newmain_item_marginleft">8.5dp</dimen>
+    <dimen name="activity_cashieraccount_newmain_item_bottomheight">13dp</dimen>
+    <dimen name="activity_cashieraccount_newmain_item_value_marginleft">105.8dp</dimen>
+    <dimen name="activity_cashieraccount_newmain_item_marginbottom">12.8dp</dimen>
+    <dimen name="activity_cashieraccount_newmain_twobtn_marginbottom">6.83dp</dimen>
+    <dimen name="activity_cashieraccount_newmain_margintop">12.8dp</dimen>
+    <!--买单头条module高度-->
+    <dimen name="headlines_height">30dp</dimen>
+
+    <!--账务首页-->
+    <dimen name="activity_cashieraccountmain_centerlin_height">235.2dp</dimen>
+    <dimen name="activity_cashieraccountmain_centerrec_height">200dp</dimen>
+    <dimen name="activity_cashieraccountmain_centerlin_bottom_height">60dp</dimen>
+    <dimen name="activity_cashieraccountmain_centerlin_allheight">384dp</dimen>
+    <dimen name="activity_cashieraccountmain_centerlin_tv1_margintop">118.4dp</dimen>
+    <dimen name="activity_cashieraccountmain_centerlin_tv2_margintop">140dp</dimen>
+    <dimen name="activity_cashieraccountmain_centerlin_tv3_margintop">160dp</dimen>
+    <dimen name="activity_cashieraccountmain_top_height">56dp</dimen>    <!-- new -->
+    <dimen name="common_0.5">0.21dp</dimen>
+    <dimen name="common_1">0.43dp</dimen>
+    <dimen name="common_2">0.85dp</dimen>
+    <dimen name="common_3_2">1.376dp</dimen>
+    <dimen name="common_4">1.71dp</dimen>
+    <dimen name="common_5">2.13dp</dimen>
+    <dimen name="common_6">2.56dp</dimen>
+    <dimen name="common_7">2.99dp</dimen>
+    <dimen name="common_8">3.41dp</dimen>
+    <dimen name="common_">3.84dp</dimen>
+    <dimen name="common_10">4.27dp</dimen>
+    <dimen name="common_11">4.69dp</dimen>
+    <!--为了适配icon位置-->
+    <dimen name="common_11_1">4.69dp</dimen>
+    <dimen name="common_12_7">5.461dp</dimen>
+    <dimen name="common_13">5.55dp</dimen>
+    <dimen name="common_14">5.97dp</dimen>
+    <dimen name="common_15">6.40dp</dimen>
+    <dimen name="common_16">6.83dp</dimen>
+    <dimen name="common_17">7.25dp</dimen>
+    <dimen name="common_18">7.68dp</dimen>
+    <dimen name="common_19">8.11dp</dimen>
+    <dimen name="common_20">8.53dp</dimen>
+    <dimen name="common_12">5.12dp</dimen>
+    <dimen name="common_22">9.39dp</dimen>
+    <dimen name="common_24">10.24dp</dimen>
+    <dimen name="common_25">10.67dp</dimen>
+    <dimen name="common_26">11.09dp</dimen>
+    <dimen name="common_28">11.95dp</dimen>
+    <dimen name="common_29">12.37dp</dimen>
+    <dimen name="common_30">12.80dp</dimen>
+    <dimen name="common_30_new">12.80dp</dimen>
+    <dimen name="common_31">13.23dp</dimen>
+    <dimen name="common_32">14.27dp</dimen>
+    <dimen name="common_33">14.08dp</dimen>
+    <dimen name="common_34">14.51dp</dimen>
+    <dimen name="common_35">14.93dp</dimen>
+    <!--为了适配icon位置-->
+    <dimen name="common_35_1">14.93dp</dimen>
+    <dimen name="common_36">15.36dp</dimen>
+    <dimen name="common_36_5">15.695dp</dimen>
+    <dimen name="common_38">16.21dp</dimen>
+    <dimen name="common_39">16.64dp</dimen>
+    <dimen name="common_40">17.07dp</dimen>
+    <dimen name="common_41">17.49dp</dimen>
+    <dimen name="common_42">17.92dp</dimen>
+    <dimen name="common_44">18.77dp</dimen>
+    <dimen name="common_45">19.20dp</dimen>
+    <dimen name="common_46">19.63dp</dimen>
+    <dimen name="common_48">20.48dp</dimen>
+    <dimen name="common_50">21.33dp</dimen>
+    <dimen name="common_54">23.04dp</dimen>
+    <dimen name="common_56">23.89dp</dimen>
+    <dimen name="common_60">25.60dp</dimen>
+    <dimen name="common_62">26.45dp</dimen>
+    <dimen name="common_63">26.88dp</dimen>
+    <dimen name="common_64">27.31dp</dimen>
+    <dimen name="common_65">27.73dp</dimen>
+    <dimen name="common_66">28.16dp</dimen>
+    <dimen name="common_70">29.87dp</dimen>
+    <dimen name="common_72">30.72dp</dimen>
+    <dimen name="common_75">32.00dp</dimen>
+    <dimen name="common_76">32.43dp</dimen>
+    <dimen name="common_80">34.13dp</dimen>
+    <dimen name="common_81_1">34.873dp</dimen>
+    <dimen name="common_82">34.99dp</dimen>
+    <dimen name="common_84">35.84dp</dimen>
+    <dimen name="common_88">37.55dp</dimen>
+    <dimen name="common_90">38.40dp</dimen>
+    <dimen name="common_92">39.25dp</dimen>
+    <dimen name="common_94">40.11dp</dimen>
+    <dimen name="common_96">40.96dp</dimen>
+    <dimen name="common_100">42.67dp</dimen>
+    <dimen name="common_102">43.52dp</dimen>
+    <dimen name="common_104">44.37dp</dimen>
+    <dimen name="common_105">44.80dp</dimen>
+    <dimen name="common_110">46.93dp</dimen>
+    <dimen name="common_114_5">49.235dp</dimen>
+    <dimen name="common_116">49.49dp</dimen>
+    <dimen name="common_120">51.20dp</dimen>
+    <dimen name="common_125">53.33dp</dimen>
+    <dimen name="common_130">55.47dp</dimen>
+    <dimen name="common_140">59.73dp</dimen>
+    <dimen name="common_150">64.00dp</dimen>
+    <dimen name="common_158">67.41dp</dimen>
+    <dimen name="common_160">68.27dp</dimen>
+    <dimen name="common_168">71.68dp</dimen>
+    <dimen name="common_180">76.80dp</dimen>
+    <dimen name="common_184">78.51dp</dimen>
+    <dimen name="common_186">79.36dp</dimen>
+    <dimen name="common_190">81.07dp</dimen>
+    <dimen name="common_200">85.33dp</dimen>
+    <dimen name="common_210">89.60dp</dimen>
+    <dimen name="common_220">93.87dp</dimen>
+    <dimen name="common_232">98.99dp</dimen>
+    <dimen name="common_236">100.69dp</dimen>
+    <dimen name="common_238">101.55dp</dimen>
+    <dimen name="common_250">106.67dp</dimen>
+    <dimen name="common_260">110.93dp</dimen>
+    <dimen name="common_268">114.35dp</dimen>
+    <dimen name="common_272">116.05dp</dimen>
+    <dimen name="common_275">117.33dp</dimen>
+    <dimen name="common_290">123.73dp</dimen>
+    <dimen name="common_300">128dp</dimen>
+    <dimen name="common_316">134.83dp</dimen>
+    <dimen name="common_320">136.53dp</dimen>
+    <dimen name="common_330">140.8dp</dimen>
+    <dimen name="common_345">147.20dp</dimen>
+    <dimen name="common_350">149.33dp</dimen>
+    <dimen name="common_360">153.60dp</dimen>
+    <dimen name="common_364">155.31dp</dimen>
+    <dimen name="common_372">158.72dp</dimen>
+    <dimen name="common_380">162.13dp</dimen>
+    <dimen name="common_416">177.49dp</dimen>
+    <dimen name="common_420">179.2dp</dimen>
+    <dimen name="common_448">191.15dp</dimen>
+    <dimen name="common_476">203.09dp</dimen>
+    <dimen name="common_479">204.37dp</dimen>
+    <dimen name="common_520">221.87dp</dimen>
+    <dimen name="common_620">264.53dp</dimen>
+    <dimen name="common_690">294.40dp</dimen>
+    <dimen name="common_750">320.00dp</dimen>
+    <dimen name="common_810">345.6dp</dimen>
+    <dimen name="common_824">351.57dp</dimen>
+    <dimen name="common_920">392.5dp</dimen>
+    <dimen name="activity_cashieraccountnewmain_bill_linheight">25dp</dimen>
+
+
+    <!-- Margin around the dialog, excluding the button bar -->
+    <dimen name="md_dialog_frame_margin">24dp</dimen>
+    <!-- Total title margin bottom is 16, but we split this between content and title -->
+    <dimen name="md_title_frame_margin_bottom">12dp</dimen>
+    <!-- The desired padding when no title is visible,
+         This plus md_content_padding_top should equals md_dialog_frame_margin -->
+    <dimen name="md_notitle_vertical_padding">16dp</dimen>
+
+    <dimen name="md_content_padding_top">8dp</dimen>
+    <dimen name="md_simplelistitem_padding_top">8dp</dimen>
+
+    <dimen name="md_button_min_width">72dp</dimen>
+    <!-- Above and below buttons, 36+6+6=48 for the height of the button frame -->
+    <dimen name="md_button_inset_vertical">6dp</dimen>
+    <dimen name="md_button_inset_horizontal">4dp</dimen>
+    <dimen name="md_button_textpadding_horizontal">1dp</dimen>
+    <dimen name="md_button_padding_horizontal">8dp</dimen>
+    <dimen name="md_button_padding_vertical">4dp</dimen>
+    <dimen name="md_button_padding_horizontal_internalexternal">32dp</dimen>
+    <!-- 16dp - 4dp (inset from background drawable) -->
+    <dimen name="md_button_padding_frame_side">12dp</dimen>
+    <dimen name="md_neutral_button_margin">12dp</dimen>
+
+    <!-- actual content padding bottom is 16dp, but we split between button bar and content -->
+    <dimen name="md_content_padding_bottom">8dp</dimen>
+    <dimen name="md_button_frame_vertical_padding">8dp</dimen>
+    <dimen name="md_button_height">48dp</dimen>
+    <dimen name="md_title_textsize">20sp</dimen>
+    <dimen name="md_content_textsize">16sp</dimen>
+    <dimen name="md_button_textsize">14sp</dimen>
+    <dimen name="md_listitem_textsize">16sp</dimen>
+    <dimen name="md_listitem_height">48dp</dimen>
+    <dimen name="md_listitem_control_margin">6dp</dimen>
+    <dimen name="md_icon_margin">16dp</dimen>
+    <dimen name="md_icon_max_size">48dp</dimen>
+    <dimen name="md_listitem_margin_left">24dp</dimen>
+    <dimen name="md_action_corner_radius">2dp</dimen>
+    <dimen name="md_divider_height">1dp</dimen>
+
+    <dimen name="md_simplelist_icon">40dp</dimen>
+    <dimen name="md_simplelist_icon_margin">16dp</dimen>
+
+    <dimen name="md_bg_corner_radius">2dp</dimen>
+    <dimen name="circular_progress_border">4dp</dimen>
+    <dimen name="md_default_dialog_width">0dp</dimen>
+
+</resources>
